@@ -6,7 +6,7 @@ Note: If you found the content helpful, consider giving the repository a star �
 
 **Checkout this [file](https://github.com/piyushsachdeva/CKA-2024/blob/main/%2340daysofkubernetes.md) for the #40daysofkubernetes challenge details**
 
-## 🔗 Join our community 👇
+## 🔗 Join our community 👇##
 
 
 <a href="https://youtube.com/@techtutorialswithpiyush"><img src="https://www.freeiconspng.com/thumbs/youtube-icon/video-youtube-icon--14.png" height="60px"></img></a>
@@ -25,6 +25,24 @@ Note: If you found the content helpful, consider giving the repository a star �
 
 ### Day 1: Docker Fundamentals
 **Status**: Video is live, check out 👉 [Day1](https://github.com/piyushsachdeva/CKA-2024/tree/main/Resources/Day01) 👈 folder for notes and useful links ✅
+
+Docker :-->Why do we need the Containers
+Prior to Containers - you are working with build Promotion in the traditional
+let's say you have Dev Env,Test Env,Prod Env
+and you have a team of Developers and that developer worked on some code
+and checkin that code in version control system
+than, build get created and build is get deployed into the Dev Environment
+and it is working file
+which is,that we wll want to see
+you are promoting that into Test 
+and it is working fine,than you are promoting that into Prod Environment ,it gets failed 
+there could be multiple reason for that build get's fails
+but most important one is due to environment misconfiguration or due to missing dependencies or due to many other libraries that were there in dev environment and test Environment and that are missing in Prod Environment
+you cannot do changes randomly in Prod Environment,you have to go through change request Process
+you have to get Approval before touch your prod Environment.
+and it results in lot of misconfigurations misalignments between different environments
+so a developer goes to the Operations team and it will be happen a multiple times 
+and you heard is it works fine in My Machine, it's not issue with code it's issue with Infrastructure or it's the issue with the Environment,and than there will be a lot of disscussion between developement and operations team.
 
 - What is Docker?
 - How is it different from Virtual Machines
